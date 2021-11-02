@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/ Fjalla One-Regular-webfont.woff2") format("woff2"),
+           url("/fonts/ Fjalla One-Regular-webfont.woff") format("woff");
+   }
+
+
+header {
+    background: url('./images/path.png') repeat-x;
+    background-color: #00748D;
+    background-position: bottom;
+    color: white;
+    padding: 1em;
+    font-family: 'Fjalla One'; 
+}
+
+header .logo img{
+    margin-bottom: 10px;
+}
+
+header .logo p{
+    position: relative;
+    top: 15px;
+    text-align: center;
+
+}
+
+
+body{
+    background-color: #f9f9f9;
+}
+
+.nav {
+    text-decoration: none;
+    text-transform: uppercase; 
+    text-align: center;
+     
+}
+
+
+.nav-item:hover{
+
+    background-color:white;
+}
+a.nav-link:hover{
+    color: #00748d;
+}
+
+
+.nav-link{
+    color:white;
+}
+
+.actualite h2,h3 {
+    text-align: center;
+}
+
+.container{
+    margin-top: 2em;
+}
+
+
+h2 {
+    color: #CB8606;
+    font-size: 30px;
+}
+h2 > span {
+    color: #00748D;
+}
+
+h3 {
+    color: #00748D;
+    font-size: 20px;
+    padding: 1em;
+}
+
+h3 > span {
+    color: #CB8606;
+}
+
+article {
+    margin-top: 3em;
+    
+}
+
+.actualite img {
+    float: left;
+}
+
+.actualite .btn {
+    border-radius: 0px;
+    background-color: #00748D;
+    border: 0px ;
+}
+
+.temoignage .container{
+    height: 300px;
+    scroll-behavior: smooth;
+    overflow: scroll;
+
+}
+
+
+.temoignage .container p::before {
+    content: url('./images/quote.png');
+}
+.temoignage .container span::before{
+    content:url('./images/client.png')
+}
+.temoignage .container span {
+   font-style: italic;
+   color: #00748D;
+}
+
+.tweet p {
+    text-align: center;
+}
+.tweet p::before{
+    content: url('./images/circle.png');
+    margin-right: 5px;
+}
+
+footer {
+    background: url('./images/path.png') repeat-x;
+    background-color: #00748D;
+    background-position: bottom;
+    color: white;
+    padding: 1em;
+    font-family: 'Fjalla One'; 
+    text-align: center;
+}
+
+footer .logo img{
+    margin-bottom: 10px;
+}
+
+footer .logo p{
+    position: relative;
+    top: 15px;
+    text-align: center;
+
+}
+footer .reseau i {
+    margin: 5px;
+}

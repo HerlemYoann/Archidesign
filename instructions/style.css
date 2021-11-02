@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/ Fjalla One-Regular-webfont.woff2") format("woff2"),
+           url("/fonts/ Fjalla One-Regular-webfont.woff") format("woff");
+   }
+
+
+header {
+    background: url('./images/path.png') repeat-x;
+    background-color: #00748D;
+    background-position: bottom;
+    color: white;
+    padding: 1em;
+    font-family: 'Fjalla One'; 
+}
+
+header .logo img{
+    margin-bottom: 10px;
+}
+
+header .logo p{
+    position: relative;
+    top: 15px;
+    text-align: center;
+
+}
+
+
+body{
+    background-color: #f9f9f9;
+}
+
+.nav {
+    text-decoration: none;
+    text-transform: uppercase; 
+    text-align: center;
+     
+}
+
+.nav-item:hover{
+
+    background-color:white;
+}
+a.nav-link:hover{
+    color: #00748d;
+}
+
+
+.nav-link{
+    color:white;
+}
+
+.presentation{
+    text-align: center;
+    background-image: url('./images/bg-header.jpg');
+    background-size:cover;
+    height: 27em;
+    padding-top: 10em;
+}
+
+h1{
+    background: #CB8606;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Fjalla One';
+    text-transform: uppercase;
+}
+
+h3{
+    background-color: aliceblue;
+    color: #00748D;
+    font-size: 20px;
+}
+
+.prestation .petit_titre {
+    text-align: center;
+    font-family: 'Fjalla One';
+    color: #00748D;
+    font-size: 25px;
+    margin: 1em;
+
+}
+
+.petit_titre span{
+    color: #CB8606;
+}
+
+.Nos_partenaire .petit_titre {
+    text-align: center;
+    font-family: 'Fjalla One';
+    color: #00748D;
+    font-size: 25px;
+    margin: 1em;
+
+}
+
+.card{
+
+    background-color: #f9f9f9;
+    border: 1px solid #f9f9f9;
+    
+
+}
+
+.font_Awesome{
+    text-align: center;
+    font-size: 1.5em;
+    background-color: #CB8606;
+    color: #f9f9f9;
+    margin: 0 100px 0 100px;
+    padding: 5px;
+}
+h4{
+    text-align: center;
+    font-size: 20px;
+}
+
+.prestation .btn{
+    background-color: #00748D;
+    color: white;
+    border-radius: 0px;
+}
+
+.Nos_partenaire{
+    padding: 2em;
+    
+    
+}
+
+.partenaire{
+    border: 2px solid #00748d;
+    background-color: #f9f9f9;
+    margin: 20px;
+ 
+    
+}
+.partenaire img {
+    width: 100%;
+}
+
+
+footer {
+    background: url('./images/path.png') repeat-x;
+    background-color: #00748D;
+    background-position: bottom;
+    color: white;
+    padding: 1em;
+    font-family: 'Fjalla One'; 
+}
+
+footer .logo img{
+    margin-bottom: 10px;
+}
+
+footer .logo p{
+    position: relative;
+    top: 15px;
+    text-align: center;
+
+}
